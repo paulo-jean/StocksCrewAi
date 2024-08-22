@@ -27,8 +27,8 @@ yahoo_finance_tool = Tool(
 )
 
 # IMPORTANDO OPENAI LLM - GPT
-#os.environ['GROQ_API_KEY']=st.secrets['GROQ_API_KEY']
-llm = ChatGroq(model="llama-3.1-70b-versatile", api_key=os.environ.get('GROQ_API_KEY'))
+os.environ['GROQ_API_KEY']=st.secrets['GROQ_API_KEY']
+llm = ChatGroq(model="llama-3.1-70b-versatile") #api_key=os.environ.get('GROQ_API_KEY'))
 
 
 stockPriceAnalyst = Agent(
