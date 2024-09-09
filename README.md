@@ -1,7 +1,9 @@
 ### **Analista de Ações - Um Aplicativo Streamlit com CrewAi** 🎫🧐🤖
 
 Este projeto utiliza Crew.ai e Streamlit para criar um aplicativo web que funciona como um analista de mercado de ações. Ele permite que você insira o código de uma ação e receba insights sobre o desempenho da ação e notícias relacionadas.
+
 🚨 *ATENÇÃO*: Os resultados das análises feitas pelos agentes de IA não são recomendações de investimentos. Foi feita para fins de aprendizado das tecnologias aqui usadas durante um curso.
+
 **Funcionalidades:** ⚙️
 
 * **Análise de Preço de Ações:** Analisa dados históricos (último ano) para determinar a tendência do preço da ação (alta, baixa ou lateral).
